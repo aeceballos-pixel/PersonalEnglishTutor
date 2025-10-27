@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal English Tutor - Your Academic Gem</title>
+    <!-- Include Tailwind CSS CDN --><script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Import Font: Inter (Sans-serif for all text, clean and modern) */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif; /* Set Inter as the primary font for everything */
+            background-color: #f5f7fa; /* Light background */
+            color: #1f2937;
+        }
+        
+        /* ISPC inspired color palette (keeping these colors for consistency, but changing focus) */
+        .bg-tutor-blue { background-color: #00A8E1; } /* Blue/Cyan for the tutor */
+        .text-tutor-blue { color: #00A8E1; }
+        .border-tutor-blue { border-color: #00A8E1; }
+        .hover\:bg-tutor-blue-dark:hover { background-color: #008AC5; }
+        
+        /* Keeping Accent Red for visual contrast */
+        .bg-accent-red { background-color: #CC0000; } 
+        .hover\:bg-accent-red-dark:hover { background-color: #A00000; }
+        .text-accent-red { color: #CC0000; }
+        .border-accent-red { border-color: #CC0000; }
+
+
+        /* Subtle background pattern (now using a more generic academic pattern) */
+        .academic-bg {
+            /* Changed from literary to a subtle geometric pattern */
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" opacity=".05"><path fill="%2300A8E1" d="M10 0L0 10V20L20 0H10Z M80 0V20L100 0H80Z M10 80L0 90V100L20 80H10Z M80 80V100L100 80H80Z"/></svg>');
+            background-repeat: repeat;
+            background-size: 100px;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4 academic-bg">
+
+    <!-- Main Card Container --><div class="max-w-xl w-full bg-white rounded-xl shadow-2xl p-8 sm:p-10 text-center border-t-8 border-accent-red relative overflow-hidden">
+        
+        <!-- Icon/Logo (Technical Gear/Book) --><div class="mx-auto w-16 h-16 bg-tutor-blue rounded-full flex items-center justify-center mb-6 shadow-lg">
+            <!-- SVG of a Gear/Cogwheel (Technical Focus) --><svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.82 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.82 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.82-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.82-3.31 2.37-2.37.996.608 2.296.608 3.35 0zM12 10a2 2 0 100 4 2 2 0 000-4z"></path></svg>
+        </div>
+
+        <!-- TITLE --><h1 class="text-4xl sm:text-5xl font-extrabold text-tutor-blue mb-4">
+            Your Personal English Tutor
+        </h1>
+        
+        <!-- UPDATED DESCRIPTION -->
+        <p class="text-lg text-gray-700 mb-6">
+            Bilingual AI English Tutor, focused on professional and technical communication. It adapts explanations, vocabulary, and pronunciation practice to your specific goals. <span class="text-sm italic">Remember, it may make mistakes. Use it critically.</span>
+        </p>
+
+        <!-- Gem Details Box (Adjusted content for technical focus) --><div class="bg-blue-50 p-4 rounded-lg mb-8 border border-tutor-blue">
+            <h2 class="text-xl font-bold text-tutor-blue mb-2">
+                Focused on Technical Speaking & Vocabulary
+            </h2>
+            <p class="text-sm text-gray-800 italic">
+                Improve your professional communication and master industry-specific terminology.
+            </p>
+        </div>
+
+        <!-- Call to Action Button (CTA) with the real link --><a 
+            href="https://gemini.google.com/gem/1IvimmSOdb5u6YNAYiisRmm62u0ew9GdW?usp=sharing" 
+            target="_blank" 
+            class="inline-flex items-center justify-center w-full px-6 py-4 border border-transparent text-lg font-bold rounded-xl text-white bg-tutor-blue hover:bg-tutor-blue-dark transition duration-300 shadow-lg transform hover:scale-[1.02] active:scale-100"
+        >
+            <svg class="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+            Start Tutoring Session Now!
+        </a>
+        
+        <p class="text-xs text-gray-500 mt-4">
+            You will be redirected to the Gemini interface.
+        </p>
+    </div>
+
+</body>
+</html>
